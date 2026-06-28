@@ -11,4 +11,4 @@ do
 
     echo" $folder is  is more then of $disk_threshold ,courrent usage is $usage "
 
-done >>> $disk_usage
+done <<< $disk_usage
