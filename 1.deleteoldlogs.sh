@@ -1,6 +1,6 @@
 #!/bin/bash
 
-folder=/tmp/applogs
+folder=/tmp/applogss
 
 if [ -d $folder ]
 then
