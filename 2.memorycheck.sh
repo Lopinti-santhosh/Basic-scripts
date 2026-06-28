@@ -10,5 +10,5 @@ do
 if [  $disk_usage -ge $disk_threshold  ]
 
     echo" $folder is  is more then of $disk_threshold ,courrent usage is $usage "
-fi 
+
 done <<< "$disk_usage"
