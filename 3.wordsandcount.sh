@@ -10,4 +10,4 @@ else
   exit 1
 fi
 
-cat "$file" | tr ' ' '\n' | tr '[:upper:]' '[:lower:]'
+cat "$file" | tr ' ' '\n' | tr '[:upper:]' '[:lower:]' | sort 
