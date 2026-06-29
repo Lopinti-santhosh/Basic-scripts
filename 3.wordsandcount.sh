@@ -1,6 +1,6 @@
 #!/bin/bash
 
-file=/temp/textfile
+file=/tmp/textfile
 
 if [ -d $file ]
 then 
