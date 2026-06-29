@@ -10,4 +10,4 @@ else
   exit 1
 fi
 
-cat "$file" | tr ' ' '\n' | tr '[:upper:]' '[:lower:]' | sort | uniq -c
+cat "$file" | tr ' ' '\n' | tr '[:upper:]' '[:lower:]' | sort | uniq -c | sort -nr
