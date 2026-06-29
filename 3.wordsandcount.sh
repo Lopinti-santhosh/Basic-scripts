@@ -2,7 +2,7 @@
 
 file=/tmp/textfile
 
-if [ -d $file ]
+if [ -f $file ]
 then 
   echo " $file is exits"
 else
